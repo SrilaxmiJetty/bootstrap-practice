@@ -83,42 +83,6 @@
       <span class="badge text-bg-dark rounded-pill">Dark</span>
 
       <hr />
-      <h2 class="text-decoration-underline">Breadcrumb</h2>
-
-      <nav area-label="breadcrumb">
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item active" ariacurrent="page">Home</li>
-        </ol>
-      </nav>
-      <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item">
-            <a href="#">Home</a>
-          </li>
-          <li class="breadcrumb-item"><a href="#">Library</a></li>
-        </ol>
-      </nav>
-      <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item">
-            <a href="#">Home</a>
-          </li>
-          <li class="breadcrumb-item"><a href="#">Library</a></li>
-          <li class="breadcrumb-item active" aria-current="page">Data</li>
-        </ol>
-      </nav>
-
-      <hr />
-
-      <h2 class="text-decoration-underline">Dividers</h2>
-
-      <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="#">Home</a></li>
-          <li class="breadcrumb-item active" aria-current="page">Library</li>
-        </ol>
-      </nav>
-      <hr />
       <h2 class="text-decoration-underline">Button</h2>
       <br />
 
@@ -532,9 +496,9 @@
         </div>
       </div>
       <hr />
-      <div class="container my-5">
+      <div class="container my-4">
         <div class="row">
-          <div class="col m-5">
+          <div class="col m-auto">
             <h2 class="text-decoration-underline">Cards</h2>
             <div class="card" style="width: 18rem">
               <img
@@ -551,17 +515,54 @@
                 <a href="#" class="btn btn-primary">Go somewhere</a>
               </div>
             </div>
-            <h2 class="text-decoration-underline mt-5">Content Type</h2>
-            <div class="card mt-3 p-3 ps-5" style="width: 18rem">
-              <h5 class="card-title">Card Title</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Card Subtile</h6>
-              <p class="card-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque,
-                quod corrupti? Totam dolorem temporibus, ea sunt animi vitae
-                laboriosam, consequuntur repellat nostrum eos, quia vel.
-              </p>
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
+            <div class="row mt-4">
+              <h2 class="text-decoration-underline">Content Type</h2>
+              <div class="card" style="width: 18rem">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="card-link">Card link</a>
+                  <a href="#" class="card-link">Another link</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="row mt-3">
+              <h2 class="text-decoration-underline">Card Images</h2>
+              <div class="card" style="width: 18rem">
+                <img
+                  src="https://www.shutterstock.com/image-photo/two-little-red-rabbits-on-600w-511964140.jpg"
+                  class="card-img-top"
+                  alt="Image"
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Reiciendis architecto exercitationem non, quod fuga qui odit
+                    eligendi iusto ad culpa.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <h3 class="text-decoration-underline">List group</h3>
+
+            <div class="card" style="width: 18rem">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">An item</li>
+                <li class="list-group-item">A ssecond item</li>
+                <li class="list-group-item">A third item</li>
+              </ul>
             </div>
           </div>
         </div>
